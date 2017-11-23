@@ -1,0 +1,23 @@
+Root Directory
+
+copy  icons to /usr/share/icons
+copy  theme to usr/share/themes
+
+
+
+home directory
+
+
+copy  plank theme to .local/share/plank/themes
+
+On elementary OS better looking with 48px icons on slingshot-launcher:
+
+gsettings set org.pantheon.desktop.slingshot icon-size 48﻿
+
+
+system settings panel for elementary OS Loki to tweak themes  icons etc
+
+
+sudo add-apt-repository ppa:philip.scott/elementary-tweaks
+sudo apt-get update
+sudo apt-get elementary-tweaks
